@@ -1,2 +1,1 @@
-# config-server
-Spring Cloud Configuration Server
+Criando README.md do projeto
