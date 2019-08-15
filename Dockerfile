@@ -24,7 +24,7 @@ ARG management_security_enabled=$management_security_enabled
 ENV spring_boot_admin_client_enabled true
 ARG spring_boot_admin_client_enabled=$spring_boot_admin_client_enabled
 
-ENV spring_boot_admin_client_url http://admin-server.hmlg.svc:8080/
+ENV spring_boot_admin_client_url http://admin-server-hmlg.192.168.99.100.nip.io
 ARG spring_boot_admin_client_url=$spring_boot_admin_client_url
 
 ENV spring_boot_admin_client_auto_registration true
